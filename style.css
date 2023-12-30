@@ -305,6 +305,22 @@ h1{
     transform: scale(1.5);
 }
 
+.profile-img {
+    /* background: green; */
+    height: 290px;
+    width: 299px;
+    border-radius: 50%;
+}
+.profile-bg {
+    height: 301px;
+    width: 313px;
+    border-radius: 53%;
+    position: absolute;
+    right: 100px;
+    top: 195px;
+    z-index: -1;
+}
+
 @media screen and (width <= 473px){
 
     .container{
